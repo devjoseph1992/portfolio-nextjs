@@ -15,6 +15,33 @@ const projectsData = [
     previewUrl: "/",
   },
   {
+    id: 2,
+    title: "GWP",
+    description: "Event Service",
+    image: "/images/projects/Gwp.png",
+    tag: ["All", "Wordpress"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 3,
+    title: "CJ Sunset View Resort",
+    description: "C & J Sunset View Resort in Zambales",
+    image: "/images/projects/cjsunset.png",
+    tag: ["All", "Wordpress"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 4,
+    title: "Mutube",
+    description: "Nextjs music app",
+    image: "/images/projects/mutube.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
     id: 4,
     title: "mobile Application",
     description: "Project 4 description",
@@ -63,6 +90,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Wordpress"
+          isSelected={tag === "Wordpress"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
