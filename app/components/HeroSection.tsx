@@ -39,8 +39,11 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            creating digital enchantment! I'm a web developer that combines code
+            and creativity to realize your online vision. Having an excellent
+            sense of design and a talent for smooth operation, I create engaging
+            and effective dynamic websites. Together, let's enhance your online
+            visibility!
           </p>
           <div>
             <Link
